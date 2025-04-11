@@ -1,0 +1,7 @@
+
+    # robots.txt for סטודיו לצילום אלפא
+    User-agent: *
+    Allow: /
+
+    # Sitemap
+    Sitemap: https://סטודיו-לצילום-אלפא.com/sitemap.xml
