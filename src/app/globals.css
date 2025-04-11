@@ -9,7 +9,14 @@
       --background-end-rgb: 255, 255, 255;
       --primary-color: #FF6B6B;
       --secondary-color: #588C7E;
-    }
+    
+  --font-family: var(--font-rubik), sans-serif;
+  --border-radius: 0.75rem;
+  --box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1), -5px -5px 15px rgba(255, 255, 255, 0.8);
+  --glass-background: rgba(255, 255, 255, 0.25);
+  --glass-border: 1px solid rgba(255, 255, 255, 0.18);
+  --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+}
 
     html {
       scroll-behavior: smooth;
