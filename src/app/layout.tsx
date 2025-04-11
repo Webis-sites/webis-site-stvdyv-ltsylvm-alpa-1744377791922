@@ -2,6 +2,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Rubik } from 'next/font/google';
 import React from 'react';
+import Navbar from '@/components/Navbar';
 
 // Configure Rubik font with Hebrew subset
 const rubik = Rubik({
@@ -49,6 +50,7 @@ export default function RootLayout({
   return (
     <html lang="he" dir="rtl" className={`${rubik.variable}`}>
       <body className="bg-gray-50 text-right min-h-screen">
+        <Navbar />
         <main className="container mx-auto px-4">{children}</main>
       </body>
     </html>
